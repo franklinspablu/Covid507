@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ValidateActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AquÃ­ va tu resultado io!"
+        android:textSize="32dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hola!"
+        android:textSize="32dp"/>
+
+    <TextView
+        android:id="@+id/lblCedula"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="XD!"
+        android:textSize="32dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tu temperatura es de: !"
+        android:textSize="32dp"/>
+
+    <TextView
+        android:id="@+id/lblTemperatura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="!"
+        android:textSize="32dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Temperatura tomada el: !"
+        android:textSize="32dp"/>
+
+    <TextView
+        android:id="@+id/lblFecha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="!"
+        android:textSize="32dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tu resultado es: !"
+        android:textSize="32dp"/>
+
+    <TextView
+        android:id="@+id/lblResultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="!"
+        android:textSize="32dp"/>
+
+</LinearLayout>
